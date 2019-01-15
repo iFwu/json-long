@@ -151,7 +151,7 @@ var json_parse = function (options) {
                 {
                     if (Long == null)
                       Long = require('long');
-                    return Long.fromString(string);    
+                    return Long.fromString(string, true);    
                 }
                 return number
             }
